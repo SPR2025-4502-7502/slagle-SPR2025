@@ -12,9 +12,17 @@ body {
 /*	rgb (153,51,204)*/
 }
 
+p {
+	font-family: "", serif;
+	font-size: 1.5rem; 
+
 
 .first-page{
 	font-style:italic;
+	color: red;
+	font-size: 5rem;
+	font-weight: 100;
+	margin-top: 1rem;
 }
 
 
