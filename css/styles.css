@@ -66,6 +66,9 @@ nav ul li a {
   font-weight: 600;
 }
 
+body a {
+  text-decoration: none !important;
+}
 .content-box {
   background-color: white;
   padding: 20px;
