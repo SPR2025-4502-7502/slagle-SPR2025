@@ -85,12 +85,13 @@ li {list-style-type: none;
 
 @media (max-width: 600px) {
   nav ul {
+    display: flex;
     flex-direction: column; 
     text-align: center;
+    margin: auto;
   }
 
   nav ul li {
-    display: block; 
     margin: 10px 0;
   }
 }
