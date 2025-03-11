@@ -19,7 +19,7 @@ header {
 	background-color: #d7e0f9;
 	width: 100%;
 	padding: 20px;
-	color: white;
+	color: #333;
 }
 
 h1 {
@@ -36,15 +36,31 @@ img {
 
 
 nav {
+  text-align: center;
   background-color: #333;
-  padding: 3.3px;
+  padding: 20px;
   width: 100%;
   list-style-type: none;
 }
 nav a {
   font-family: 'Open Sans', sans-serif; 
   text-decoration: none !important; 
-   color: #FFE4E1;
+   color: white;
+   background-color: #ff69b4;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   text-align: center;
+   display: incline-flex;
+   margin: 4px;
+   width: 150px;
+   height: 150px;
+   transition: background-color 0.3s ease;
+}
+nav a: hover {
+  background-color: #fo6292;
+
 }
 
 nav ul {
