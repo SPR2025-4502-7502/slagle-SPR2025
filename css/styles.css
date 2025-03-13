@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 100%;
 }
 
 header {
@@ -133,6 +134,12 @@ section p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.introtext {
+text-align: center;
+
+
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -140,6 +147,11 @@ section p {
   gap: 15px;
   text-align: left;
 }
+
+.header-container p {
+  align-items: right;
+}
+
 .header-container img {
   width: 220px;
   height: auto;
