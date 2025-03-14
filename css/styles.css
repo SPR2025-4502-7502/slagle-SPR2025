@@ -140,6 +140,7 @@ section p {
   font-size: 1.2rem;
   line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
+  margin-top: 1.2rem;
 }
 
 
@@ -258,7 +259,7 @@ padding: 10px;
   }
 
   section {
-    padding: 1rem;
+    padding: 0.2rem;
   }
 }
 }
