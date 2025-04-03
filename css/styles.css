@@ -129,20 +129,20 @@ section p {
   font-family:'Merriweather', serif
 }
 
+
 .introtext {
 text-align: center;
 
 }
 
-.location-holder, {
+.text-holder {
   width: 100%;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  box-sizing: border-box;
+}
 
 
+.location-holder {
+  @extend .media-holder;
+}
 
 .header-container {
   display: flex;
@@ -200,6 +200,7 @@ footer {
   position: relative;
   bottom: 0;
 }
+
 
 @media (max-width: 600px) {
   nav ul {
