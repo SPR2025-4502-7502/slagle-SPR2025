@@ -135,15 +135,19 @@ text-align: center;
 
 }
 
+
 .location-page .text-holder {
   width: 100%;
 }
 
 
-
+.media-holder,
 .location-holder {
-  @extend .media-holder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .header-container {
   display: flex;
