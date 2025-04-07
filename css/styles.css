@@ -130,6 +130,14 @@ section p {
 }
 
 
+address {
+  text-align: left;
+}
+
+a href {
+  text-align: left;
+}
+
 .introtext {
 text-align: center;
 
