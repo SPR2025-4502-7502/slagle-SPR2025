@@ -204,6 +204,94 @@ section img {
   text-decoration: none;
 }
 
+
+.gallery-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+  background-color: #918151;
+  margin: 1rem;
+  padding: 1rem;
+  min-width: 10rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.button-start {
+/*  background-color: forestgreen;*/
+}
+
+.gallery-image {
+  max-width: 80%;
+
+}
+
+.gallery-image img {
+  width: 100%;
+}
+
+.hideThis {
+  display: none;
+/*  background-color: orange;*/
+}
+
+example-image {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+
+}
+
+.example-image img {
+  display: flex;
+    max-width:230px;
+    max-height:95px;
+  width: auto;
+    height: auto;
+    margin: 1rem;
+}
+
+.listings2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*eclipse gallery classes*/
+
+.eclipse {
+  background: linear-gradient(#faf6f3, #eddfe4);
+}
+
+
+.eclipse button {
+  font-family: "Anta", sans-serif;
+  background-color: #918151;
+  margin: 1rem;
+  padding: 1rem;
+  min-width: 10rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+
+
+
+
+
+
 footer {
   font-family:'Open Sans', sans-serif;;
   background-color: #333;
