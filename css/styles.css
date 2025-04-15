@@ -241,8 +241,8 @@ section {
   flex-direction: row;
 }
 
-button_next {  }
-button_previous {  }
+.button_next { }
+.button_previous { }
 
 .stepper {  }
 
@@ -258,7 +258,7 @@ button {
 }
 
 .button-start {
-/*  background-color: forestgreen;*/
+  background-color: lightpink;
 }
 
 .gallery-image {

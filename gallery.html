@@ -1,149 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <title>My First Website </title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <meta charset="utf-8" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,600;1,600&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,600;1,600&family=Roboto:ital@0;1&display=swap" rel="stylesheet" type="text/css">
- </head>
-
-
-<body>
+  <body class="gallery-body">
     <header>
-        <h1>Making the Perfect Bagel</h1>
+      <h1>Making the Perfect Bagel</h1>
     </header>
 
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.instagram.com/morgansmedia1/">Instagram Media Page</a></li>
+        <li><a href="list1.html">Best Reality Shows</a></li>
+        <li><a href="list2.html">Best Chicago Pizza Restaurants</a></li>
+      </ul>
+    </nav>
 
-<nav>
-    <ul>
-      <li> <a href="index.html"> Home </a> </li>
-    <li> <a href="https://www.instagram.com/morgansmedia1/"> Instagram Media Page </a> </li>
-    <li> <a href="list1.html">Best Reality Shows</a> </li>
-    <li> <a href="list2.html">Best Chicago Pizza Resturants </a> </li>
-  </ul>
+    <main id="content">
+      <div class="gallery-home">
+        <div class="gallery-section">
+          <div class="gallery-descrip" id="gallery">
+            <p>
+              Making the perfect bagel is a simple joy that starts with a few basic ingredients and a little bit of love. In this photo story, I will walk you through the easy steps of toasting a plain bagel, spreading on cream cheese, and adding a flavorful twist with Everything Bagel seasoning. Each photo captures a step in the process, from gathering your materials to the final, delicious result.
+            </p>
+          </div>
 
-  </nav>
+          <section class="gallery-example">
+            <div class="button_holder">
+              <button id="button_previous" class="button-start">&#9664; Previous</button>
+              <p id="stepper"></p>
+              <button id="button_next">Next &#9654;</button>
+            </div>
 
+            <!-- First image is shown by default -->
+            <figure class="gallery-image">
+              <img src="img/photoimage1.jpg" alt="Utensils and plates shown for bagel making" />
+              <figcaption>
+                Utensils and plates shown for bagel making <time datetime="2025">2025</time>
+              </figcaption>
+            </figure>
 
-<body class="gallery-body">
- 
-  <main id="content">
+            <!-- All others hidden initially -->
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage2.jpg" alt="Ingredients all displayed in refrigerator" />
+              <figcaption>Plain bagels and cream cheese displayed in refrigerator <time datetime="2025">2025</time></figcaption>
+            </figure>
 
-    <div class="gallery-home">
-      <div class="gallery-section">
-        <div class="gallery-descrip" id="gallery">
-          <p>Making the perfect bagel is a simple joy that starts with a few basic ingredients and a little bit of love. In this photo story, I will walk you through the easy steps of toasting a plain bagel, spreading on cream cheese, and adding a flavorful twist with Everything Bagel seasoning. Each photo captures a step in the process, from gathering your materials to the final, delicious result.</p>
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage3.jpg" alt="Bagels and cream cheese in front of toaster" />
+              <figcaption>Plain bagels and cream cheese displayed in front of toaster <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage4.jpg" alt="Plain bagel in toaster" />
+              <figcaption>Plain bagel toasting <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage5.jpg" alt="Toaster displaying the bagel after toasting" />
+              <figcaption>Toaster displaying ready bagel <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage6.jpg" alt="Toasted bagel on plate" />
+              <figcaption>Toasted bagel on plate <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage7.jpg" alt="Bagel with cream cheese on knife" />
+              <figcaption>Optimal amount of cream cheese displayed <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage8.jpg" alt="Toasted bagel with cream cheese" />
+              <figcaption>Cream cheese spread evenly <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage9.jpg" alt="Everything bagel seasoning" />
+              <figcaption>Everything Bagel Seasoning Asiago Cheese Flavoring <time datetime="2025">2025</time></figcaption>
+            </figure>
+
+            <figure class="gallery-image hideThis">
+              <img src="img/photoimage10.jpg" alt="Finished bagel with seasoning" />
+              <figcaption>Finished bagel with seasoning <time datetime="2025">2025</time></figcaption>
+            </figure>
+          </section>
         </div>
-        <section class="gallery-example">
+      </div>
+    </main>
 
-    <div class="button_holder">
-      <button id="button_previous" class="button-start">&#9664; Previous</button>
-      <p id="stepper"></p>
-      <button id="button_next">Next &#9654;</button>
-    </div>
+    <footer>
+      <p>&copy; 2025 Morgan Slagle. All rights reserved.</p>
+    </footer>
 
-
-
-    <figure class="gallery-image hideThis">
-
-      <img src="img/photoimage1.jpg" alt="Utensils and plates shown for bagel making">
-      <figcaption>
-        Utensils and plates shown for bagel making <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage2.jpg" alt="Ingredients all displayed in refrigerator">
-      <figcaption>
-        Plain bagels and cream cheese displayed in refrigerator <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage3.jpg" alt="Plain Bagels, cream cheese and plate all displayed in front of toaster">
-      <figcaption>
-        Plain bagels and cream cheese displayed in front of toaster <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage4.jpg" alt="Plain bagel in toaster">
-      <figcaption>
-        Plain bagel toasting  <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage5.jpg" alt="Toaster displaying the ready simple after toasting bagel">
-      <figcaption>
-        Toaster dispalying ready simple after toasting bagel <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage6.jpg" alt="Bagel displayed on plate after being toasted">
-      <figcaption>
-       Toasted bagel on plate <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-
-    <figure class="gallery-image hideThis">
-      <img src="img/photoimage7.jpg" alt="Plain bagel on plate with cream cheese on knife displaying optimal amount">
-      <figcaption>
-        Optimal amount of cream cheese displayed with toasted bagel on plate <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-<figure class="gallery-image hideThis">
-      <img src="img/photoimage8.jpg" alt="Toasted bagel with cream cheese">
-      <figcaption>
-       Toasted bagel showing cream cheese spread evenly <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-<figure class="gallery-image hideThis">
-      <img src="img/photoimage9.jpg" alt="A hand holding everything bagel seasoning (Asiago cheese flavoring)">
-      <figcaption>
-        Everything Bagel Seasoning Asiago Cheese Flavoring <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-
-<figure class="gallery-image hideThis">
-      <img src="img/photoimage10.jpg" alt="A finished bagel with optimal cream cheese and bagel seasoning dispalyed">
-      <figcaption>
-        Everything Bagel Seasoning Asiago Cheese Flavoring <time datetime="2025">2025</time>
-      </figcaption>
-    </figure>
-
-    </div>
-    </div>
-    </section>
-
-
-  </main>
-</body>
-
-<footer>
-    <p>&copy; 2025 Morgan Slagle. All rights reserved.</p>
-</footer>
-
-<script type="text/javascript" src="js/gallery.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+  </body>
 </html>
