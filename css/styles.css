@@ -242,6 +242,7 @@ section {
   padding: 1rem;
 }
 
+
 .gallery-image {
   text-align: center;
 }
@@ -269,7 +270,7 @@ button {
   font-weight: bold;
 }
 
-#stepper {
+.stepper {
   font-size: 1rem;
   font-weight: 600;
 }
