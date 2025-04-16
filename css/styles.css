@@ -312,6 +312,10 @@ buttongallery {
 .gallery-image img {
   width: 100%;
 
+  .hideThis {
+  display: none;
+}
+
 footer {
 font-size: 0.9rem;
 padding: 10px;
