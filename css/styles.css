@@ -285,15 +285,14 @@ stepper {
 }
 
 button {
-  background-color: lightpink;
+  background-color: #FFB6C1;
+  color: #ffffff;
   margin: 1rem;
   padding: 1rem;
   min-width: 10rem;
   font-size: 1.2rem;
   border-radius: 0.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  filter: drop-shadow(1px 1px);
+  border: lightgray 1px dotted;
 }
 
 .button-start {
