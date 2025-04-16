@@ -286,7 +286,7 @@ button_previous {  }
 }
 
 buttongallery {
-  background-color: orange;
+  background-color: lightpink;
   margin: 1rem;
   padding: 1rem;
   min-width: 10rem;
@@ -298,14 +298,10 @@ buttongallery {
 }
 
 .button-start {
-/*  background-color: forestgreen;*/
 }
 
 .gallery-image {
   max-width: 80%;
-
-
-  
 
 }
 
@@ -316,6 +312,7 @@ buttongallery {
 .hideThis {
   display: none;
 }
+
 
 footer {
 font-size: 0.9rem;
