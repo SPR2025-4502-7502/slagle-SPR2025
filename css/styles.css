@@ -253,17 +253,23 @@ stepper {
 
 }
 
-
-.gallery-example {
+.gallery-style {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-/*  background-color: orangered;*/
+}
+
+.stepper {
+  font-style: normal;
+  font-size: 1rem;
 }
 
 
-.gallery-descrip {
+.gallery-home p{
+  font-style: italic;
+  font-size: 18px;
+  margin: 20px;
 
 }
 
@@ -274,33 +280,30 @@ stepper {
 }
 
 
-
-.stepper {  
-  vertical-align: middle;
-}
-
 button {
-  background-color: #FFB6C1;
-  color: #ffffff;
-  margin: 1rem;
-  padding: 1rem;
-  min-width: 10rem;
-  font-size: 1.2rem;
+  background-color: rgba(212, 175, 55, 73%);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  min-width: 6.5rem;
+  font-size: 0.9rem;
+  font-family: "Merriweather", serif;
   border-radius: 0.5rem;
-  border: lightgray 1px dotted;
-}
-
-.button-start {
+  border: solid 1px gray;
 }
 
 .gallery-image {
-  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
 
 }
 
 .gallery-image img {
-  width: 100%;
-
+  max width: 80%;
+  display: flex;
+    margin: 1rem;
+}
 
 .hideThis {
   display: none;
