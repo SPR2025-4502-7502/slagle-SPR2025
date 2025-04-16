@@ -278,14 +278,13 @@ stepper {
   flex-direction: row;
 }
 
-button_next {  }
-button_previous {  }
+
 
 .stepper {  
   vertical-align: middle;
 }
 
-buttongallery {
+button {
   background-color: lightpink;
   margin: 1rem;
   padding: 1rem;
