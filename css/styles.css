@@ -217,23 +217,9 @@ footer {
   bottom: 0;
 }
 
-
-@media (max-width: 600px) {
-  nav ul {
-    display: flex;
-    flex-direction: column; 
-    text-align: center;
-    margin: auto;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-section {
-  padding: 15px;
-  margin: 15px 0;
+.hideThis {
+  display: none;
 }
-
 
 /*gallery css*/
 .gallery {
@@ -307,15 +293,31 @@ button {
     margin: 1rem;
 }
 
-.hideThis {
-  display: none;
-}
-
 
 footer {
 font-size: 0.9rem;
 padding: 10px;
 }
+
+
+
+@media (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: auto;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+section {
+  padding: 15px;
+  margin: 15px 0;
+}
+
+
 
 
 @media (max-width: 555px) {
