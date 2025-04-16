@@ -312,7 +312,8 @@ buttongallery {
 .gallery-image img {
   width: 100%;
 
-  .hideThis {
+
+.hideThis {
   display: none;
 }
 
