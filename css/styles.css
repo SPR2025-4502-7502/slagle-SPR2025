@@ -254,11 +254,6 @@ stepper {
 }
 
 
-
-.gallery-image {
-
-}
-
 .gallery-example {
   display: flex;
   flex-direction: column;
