@@ -245,7 +245,7 @@ stepper {
   align-items: center;
 }
 
-.stepper {
+.stepper p{
   font-style: normal;
   font-size: 1rem;
 }
@@ -255,7 +255,12 @@ stepper {
   font-size: 18px;
   font-family: 'Merriweather', serif;
   margin: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fff0f5; /* light blush background */
+  border-radius: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -268,11 +273,10 @@ stepper {
 
 button {
   background-color: rgba(212, 175, 55, 0.85);
-  margin: 0.5rem;
+  margin: 1rem auto;
   padding: 0.5rem;
   min-width: 6.5rem;
   font-size: 0.9rem;
-  margin: 0  auto;
   font-family: "Merriweather", serif;
   border-radius: 0.5rem;
   border: solid 1px gray;
