@@ -252,9 +252,10 @@ stepper {
 
 
 .gallery-home p{
-  font-style: italic;
   font-size: 18px;
+  font-family: 'Merriweather', serif;
   margin: 20px;
+  font-weight: 700;
 
 }
 
@@ -266,11 +267,12 @@ stepper {
 
 
 button {
-  background-color: rgba(212, 175, 55, 73%);
+  background-color: rgba(212, 175, 55, 0.85);
   margin: 0.5rem;
   padding: 0.5rem;
   min-width: 6.5rem;
   font-size: 0.9rem;
+  margin: 0  auto;
   font-family: "Merriweather", serif;
   border-radius: 0.5rem;
   border: solid 1px gray;
