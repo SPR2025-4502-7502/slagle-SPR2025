@@ -8,6 +8,17 @@
   border: 0;
 }
 
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 4rem;
+
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
