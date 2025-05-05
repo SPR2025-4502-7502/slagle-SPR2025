@@ -64,14 +64,11 @@ nav ul li a:visited {
   color: black;
 }
 
-nav ul li a:hover button{
-  text-decoration: ;
-  background-color: #FEBECC;
-}
 
 nav ul li:hover {
   background-color: #FEBECC;
 }
+
 
 nav a {
   font-family: 'Open Sans', sans-serif; 
