@@ -220,23 +220,14 @@ section img {
   border: none;
 }
 
-.img-credit {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8rem;
-  padding: 1rem;
-  margin: 0.1rem;
-  border-radius: 3px;
-}
+
 .img-credit a {
   color: whitesmoke;
   text-shadow: black 1px 0 10px;
-  background: black;
   border-radius: 2px;
-  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 
